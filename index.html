@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="./scripts.js"></script>
+</head>
+<body>
+
+<div class="sidebar">
+
+    <div class="sidebar-logo noselect"><span class="material-symbols-outlined">dashboard</span>
+        Dashboard
+    </div>
+
+    <div class="sidebar-item noselect"><span class="material-symbols-outlined">home</span>
+        Home
+    </div>
+
+    <div class="sidebar-item noselect"><span class="material-symbols-outlined">account_circle</span>
+        Profile
+    </div>
+    
+    <div class="sidebar-item noselect"><span class="material-symbols-outlined">chat</span>
+        Messages
+    </div>
+
+    <div class="sidebar-item noselect"><span class="material-symbols-outlined">history</span>
+        History
+    </div>
+
+    <div class="sidebar-item noselect"><span class="material-symbols-outlined">task</span>
+        Tasks
+    </div>
+
+    <div class="sidebar-item first-group-end noselect"><span class="material-symbols-outlined">groups</span>
+        Communities
+    </div>
+
+    <div class="sidebar-item noselect"><span class="material-symbols-outlined">settings</span>
+        Settings
+    </div>
+
+    <div class="sidebar-item noselect"><span class="material-symbols-outlined">contact_support</span>
+        Support
+    </div>
+    
+    <div class="sidebar-item noselect"><span class="material-symbols-outlined">verified_user</span>
+        Privacy
+    </div>
+</div>
+
+<div class="container">
+    <div class="header">
+        <div class="search-bar">
+            <span class="material-symbols-outlined noselect">search</span>
+            <input type="text">
+        </div>
+
+        <div class="profile-bar">
+            <span id="notification-icon" class="material-symbols-outlined icon noselect">notifications_active</span>
+            <span id="profile-icon" class="material-symbols-outlined icon noselect">face_6</span>
+            <span class="profile-name noselect">Georgi Todorov</span>
+        </div>
+
+        <div class="greeting">
+            <span id="profile-icon" class="material-symbols-outlined icon noselect">face_6</span>
+            <div class="greeting-text-container">
+                <div class="row-1">Hi there,</div>
+                <div class="row-2">Georgi Todorov (@xsaze)</div>
+            </div>
+        </div>
+
+        <div class="nav-bar noselect">
+            <div class="nav-item">New</div>
+            <div class="nav-item">Upload</div>
+            <div class="nav-item">Share</div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="projects-container">
+            <span class="content-title">Your Projects</span>
+            <div class="cards-container">
+
+                <div class="project-card">
+                    <div class="card-title"><a href="https://xsaze.github.io/sign-up-form/">Sign Up Form</a></div>
+                    <div class="card-desc">Responsive sign up page layout.</div>
+                    <div class="card-buttons">
+                        <span class="material-symbols-outlined"><a href="https://www.theodinproject.com/lessons/851/project_submissions">star</a></span>
+                        <span class="material-symbols-outlined"><a href="https://github.com/xsaze/sign-up-form">code_blocks</a></span>
+                        <span class="material-symbols-outlined tooltip" onclick="ctrlC(1)">share
+                            <span class="tooltiptext">Copy To Clipboard</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-title"><a href="https://xsaze.github.io/calculator-update/">Calculator</a></div>
+                    <div class="card-desc">Calculator application made with Javascript.</div>
+                    <div class="card-buttons">
+                        <span class="material-symbols-outlined"><a href="https://www.theodinproject.com/lessons/559/project_submissions">star</a></span>
+                        <span class="material-symbols-outlined"><a href="https://github.com/xsaze/calculator-update">code_blocks</a></span>
+                        <span class="material-symbols-outlined tooltip" onclick="ctrlC(2)">share
+                            <span class="tooltiptext">Copy To Clipboard</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-title"><a href="https://xsaze.github.io/etch-a-sketch/">Etch A Sketch</a></div>
+                    <div class="card-desc">Drawing application made with Javascript.</div>
+                    <div class="card-buttons">
+                        <span class="material-symbols-outlined"><a href="https://www.theodinproject.com/lessons/529/project_submissions">star</a></span>
+                        <span class="material-symbols-outlined"><a href="https://github.com/xsaze/etch-a-sketch">code_blocks</a></span>
+                        <span class="material-symbols-outlined tooltip" onclick="ctrlC(3)">share
+                            <span class="tooltiptext">Copy To Clipboard</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-title"><a href="https://xsaze.github.io/rock-paper-scissors/">Rock Paper Scissors</a></div>
+                    <div class="card-desc">Rock paper scissors game made with Javascript.</div>
+                    <div class="card-buttons">
+                        <span class="material-symbols-outlined"><a href="https://www.theodinproject.com/lessons/528/project_submissions">star</a></span>
+                        <span class="material-symbols-outlined"><a href="https://github.com/xsaze/rock-paper-scissors">code_blocks</a></span>
+                        <span class="material-symbols-outlined tooltip" onclick="ctrlC(4)">share
+                            <span class="tooltiptext">Copy To Clipboard</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-title"><a href="https://xsaze.github.io/landing-page/">Landing Page</a></div>
+                    <div class="card-desc">Website landing page.</div>
+                    <div class="card-buttons">
+                        <span class="material-symbols-outlined"><a href="https://www.theodinproject.com/lessons/790/project_submissions">star</a></span>
+                        <span class="material-symbols-outlined"><a href="https://github.com/xsaze/landing-page">code_blocks</a></span>
+                        <span class="material-symbols-outlined tooltip" onclick="ctrlC(5)">share
+                            <span class="tooltiptext">Copy To Clipboard</span>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="right-sidebar">
+            <div class="top-container">
+                <span class='content-title' >Announcements</span>
+                <div class='announcements-container'>
+                    <div class="announcement">The admin dashboard project is finished</div>
+                    <div class="announcement">I have started The Odin Project course.</div>
+                </div>
+                
+            </div>
+    
+            <div class="bottom-container">
+                <span class='content-title'>Tasks</span>
+                <div class="tasks-container announcements-container">
+                    <div class="announcement">Finish The Odin Project.</div>
+                    <div class="announcement">Find a job as developer.</div>
+                    <div class="announcement">Become FullStack Javascript dev.</div>
+                    <div class="announcement">Become Web3 Dapp dev.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
